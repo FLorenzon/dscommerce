@@ -10,7 +10,6 @@ public class ValidationError extends CustomError {
 
 	public ValidationError(Instant timestamp, Integer status, String error, String path) {
 		super(timestamp, status, error, path);
-		this.errors = errors;
 	}
 
 	public List<FieldMessage> getErrors() {
@@ -18,7 +17,7 @@ public class ValidationError extends CustomError {
 	}
 	
 	public void addError(String fieldName, String message) {
-		
+		errors.removeIf(x -> x.getFieldName().equals(fieldName));
 		errors.add(new FieldMessage(fieldName, message));
 	}
 }
