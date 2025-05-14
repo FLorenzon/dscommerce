@@ -17,7 +17,6 @@ A aplicação consiste em uma pesquisa de produtos com suas catergorias, mantend
 - JPA / Hibernate
 - Maven
 
-## Approval
 - Database: Postgressql
 - Database Management: PgAdmin
 
