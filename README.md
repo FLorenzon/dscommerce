@@ -18,8 +18,8 @@ A aplicação consiste em uma pesquisa de produtos com suas catergorias, mantend
 - Maven
 
 ## Approval
-Database: - Postgressql
-Database Management: - PgAdmin
+- Database: Postgressql
+- Database Management: PgAdmin
 
 # Agradecimentos
 [DevSuperior](https://devsuperior.com "Site da DevSuperior")
