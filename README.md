@@ -5,7 +5,14 @@
 
 DSCommerce é uma aplicação  web e construída em um projeto de desafio orientado pela **DevSuperior**, [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-A aplicação consiste em uma pesquisa de produtos com suas catergorias, mantendo seus cadastros e também cadastros de usuários. Os produtos podem ser listados paginadamente, identificados por Id, inseridos, atualizados ou deletados. Cada usuário possui nome, email, telefone, data de nascimento e uma senha de acesso. Os dados dos produtos são: nome, descrição, preço e imagem. O sistema deve apresentar um catálogo de produtos, os quais podem ser filtrados pelo nome do produto. A partir desse catálogo, o usuário pode selecionar um produto para ver seus detalhes e para decidir se o adiciona a um carrinho de compras. O usuário pode incluir e remover itens do carrinho de compra, bem como alterar as quantidades de cada item. Os usuários do sistema podem ser clientes ou administradores, sendo que todo usuário cadastrado por padrão é cliente. Usuários não identificados podem se cadastrar no sistema, navegar no catálogo de produtos e no carrinho de compras. Clientes podem atualizar seu cadastro no sistema, registrar pedidos e visualizar seus próprios pedidos. Usuários administradores tem acesso à área administrativa onde pode acessar os cadastros de usuários, produtos e categorias.
+O aplicativo DsCommerce, desenvolvido em parceria com a DevSuperior, é um sistema de e-commerce completo, projetado para gerenciar registros de produtos e usuários com eficiência. A plataforma suporta operações CRUD (Criar, Ler, Atualizar, Excluir) completas para produtos, que são organizados por categorias e exibidos em listas paginadas identificadas por IDs exclusivos. As informações do produto incluem nome, descrição, preço e imagem.
+
+Os usuários do sistema possuem perfis com detalhes essenciais, como nome, e-mail, número de telefone, data de nascimento e uma senha de acesso segura. O sistema oferece um catálogo de produtos pesquisável, permitindo que os usuários filtrem os produtos por nome. A partir desse catálogo, os usuários podem visualizar informações detalhadas do produto e decidir se desejam adicionar itens ao carrinho de compras.
+
+A funcionalidade do carrinho de compras permite que os usuários adicionem, removam e modifiquem itens facilmente. Usuários registrados são categorizados como clientes por padrão, enquanto visitantes não registrados podem navegar pelo catálogo e gerenciar um carrinho de compras antes de se cadastrarem. Os clientes podem atualizar suas informações pessoais, fazer pedidos e revisar seu histórico de pedidos.
+
+Os administradores têm acesso privilegiado a um painel administrativo onde podem gerenciar contas de usuários, listagens de produtos e categorias, garantindo o bom funcionamento e a manutenção da plataforma.
+Adoção de boas práticas.
 
 ## Modelo de domínio DSCommerce
 ![Modelo de domínio DSList](https://i.pinimg.com/1200x/1f/19/f6/1f19f6b13322e736eb94756c6f2865fc.jpg)
